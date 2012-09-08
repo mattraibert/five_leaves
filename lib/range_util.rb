@@ -1,11 +1,6 @@
 require 'lazy_enum'
 require 'enum_util'
 
-def palindromic? n
-  n = n.to_s
-  !(0..n.size/2).includes_match? { |i| n[i] != n[-1-i] }
-end
-
 class Range
   def size
     last - first + 1

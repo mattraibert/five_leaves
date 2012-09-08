@@ -2,15 +2,6 @@ require 'test_helper'
 require 'range_util'
 
 class RangeUtilTest < MiniTest::Unit::TestCase
-  def test_palindrome
-    assert(palindromic?(nil))
-    assert(palindromic?(9009))
-    assert(!palindromic?(1234))
-    assert(!palindromic?(1224))
-    assert(palindromic?(11211))
-    assert(!palindromic?(11238))
-  end
-
   def test_pairs
     [[1, 1], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 1], [3, 2], [3, 3]].each do |pair|
       assert (1..3).pairs.include? pair
