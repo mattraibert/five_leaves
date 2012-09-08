@@ -17,10 +17,10 @@ module Enumerable
 end
 
 class Enumerator
-  def lazy_zip with
+  def lazy_zip(with)
     Enumerator.new do |yielder|
       loop do
-        yielder << [self.next,with.next]
+        yielder << [self.next, with.next]
       end
     end
   end

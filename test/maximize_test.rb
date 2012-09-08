@@ -1,5 +1,5 @@
-require './test_helper'
-require './maximize'
+require 'test_helper'
+require 'maximize'
 
 class MaximizeTest < MiniTest::Unit::TestCase
   def test_maximize
