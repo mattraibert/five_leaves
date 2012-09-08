@@ -4,7 +4,7 @@ a collection of useful ruby methods
 
 ## Examples
 
-For more examples, see the [unit tests](https://github.com/mattraibert/five_leaves/blob/master/test/grasshopper_test.rb)
+For more examples, see the [unit tests](https://github.com/mattraibert/five_leaves/blob/master/test/)
 
 
 ```
