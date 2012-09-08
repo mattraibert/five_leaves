@@ -18,15 +18,15 @@ class Range
     stutter.lazy_zip squared
   end
 
-  def * n
+  def *(n)
     (size * n).times.lazy_map { |x| first + (x % size) }
   end
 
-  def ** n
+  def **(n)
     (size * n).times.lazy_map { |x| first + (x / n) }
   end
 
-  def pair_with range
+  def pair_with(range)
     (self * range.size).lazy_zip(range ** self.size)
   end
 end

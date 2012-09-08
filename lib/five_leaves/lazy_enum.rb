@@ -26,10 +26,12 @@ class Enumerator
   end
 end
 
-def series(init=0)
-  (init..(1.0/0.0)).lazy_map { |x| yield x }
-end
+module FiveLeaves
+  def self.series(init=0)
+    (init..(1.0/0.0)).lazy_map { |x| yield x }
+  end
 
-def find(init=0)
-  (init..(1.0/0.0)).find { |x| yield x }
+  def self.find(init=0)
+    (init..(1.0/0.0)).find { |x| yield x }
+  end
 end
