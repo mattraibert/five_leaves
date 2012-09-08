@@ -1,4 +1,4 @@
-require 'enum_util'
+require 'five_leaves/enum_util'
 
 def palindromic?(n)
   string = n.to_s

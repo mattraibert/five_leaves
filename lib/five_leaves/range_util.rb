@@ -1,5 +1,5 @@
-require 'lazy_enum'
-require 'enum_util'
+require 'five_leaves/lazy_enum'
+require 'five_leaves/enum_util'
 
 class Range
   def size

@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'sum.rb'
+require 'five_leaves/sum.rb'
 
 class SumTest < MiniTest::Unit::TestCase
   def test_sum

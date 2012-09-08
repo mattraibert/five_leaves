@@ -1,4 +1,4 @@
-require 'lazy_enum'
+require 'five_leaves/lazy_enum'
 
 #find the input in the range which maximizes the result of the block
 def maximize(range = 1..1_000_000)

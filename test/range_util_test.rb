@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'range_util'
+require 'five_leaves/range_util'
 
 class RangeUtilTest < MiniTest::Unit::TestCase
   def test_pairs

@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'lazy_enum'
+require 'five_leaves/lazy_enum'
 
 class LazyEnumTest < MiniTest::Unit::TestCase
   def test_lazy_select_can_select_from_infinite_series

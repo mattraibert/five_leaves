@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'enum_util'
+require 'five_leaves/enum_util'
 
 class EnumUtilTest < MiniTest::Unit::TestCase
   def test_includes_match

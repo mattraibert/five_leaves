@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'palindromic'
+require 'five_leaves/palindromic'
 
 class PalindromicTest < MiniTest::Unit::TestCase
   def test_palindrome

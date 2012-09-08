@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'maximize'
+require 'five_leaves/maximize'
 
 class MaximizeTest < MiniTest::Unit::TestCase
   def test_maximize
