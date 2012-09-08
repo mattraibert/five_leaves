@@ -1,0 +1,8 @@
+require 'five_leaves/prime_util.rb'
+require 'five_leaves/sum.rb'
+require 'five_leaves/range_util.rb'
+require 'five_leaves/maximize.rb'
+require 'five_leaves/lazy_enum.rb'
+require 'five_leaves/digits.rb'
+require 'five_leaves/enum_util.rb'
+require 'five_leaves/palindromic.rb'
