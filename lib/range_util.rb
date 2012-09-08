@@ -12,11 +12,11 @@ class Range
   end
 
   def stutter
-    (size * size).times.lazy_map {|x| first + (x / size) }
+    (size * size).times.lazy_map { |x| first + (x / size) }
   end
 
   def squared
-    (size * size).times.lazy_map {|x| first + (x % size) }
+    (size * size).times.lazy_map { |x| first + (x % size) }
   end
 
   def pairs
