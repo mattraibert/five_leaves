@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name = 'five_leaves'
-  gem.version = "0.2.1"
+  gem.version = "0.2.2.SNAPSHOT"
   gem.license = "GPLv3"
   gem.summary = "Some helpful methods"
   gem.description = "A collection of methods for creating series and iterators"
