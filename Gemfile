@@ -1,9 +1,8 @@
-source :rubygems
+source 'https://rubygems.org'
 
 gem 'i18n', '>= 0.0.4'
 gem 'rake'
 group :test do
   gem "minitest"
-  gem "minitest-reporters", '>= 0.5.0'
   gem 'posto'
 end

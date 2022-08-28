@@ -1,7 +1,7 @@
 require 'test_helper'
 require 'five_leaves/range_util'
 
-class RangeUtilTest < MiniTest::Unit::TestCase
+class RangeUtilTest < Minitest::Test
   def test_pairs
     [[1, 1], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 1], [3, 2], [3, 3]].each do |pair|
       assert (1..3).pairs.include? pair

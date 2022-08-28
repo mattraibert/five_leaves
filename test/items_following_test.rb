@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require 'five_leaves/items_following'
 
-class ItemsFollowingTest < MiniTest::Unit::TestCase
+class ItemsFollowingTest < Minitest::Test
   def test_items_following
     data = %w(I want text that follows this THESE TWO NOT THIS)
     result = []

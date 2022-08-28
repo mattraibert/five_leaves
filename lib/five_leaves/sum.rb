@@ -1,5 +1,5 @@
 module Enumerable
-  def sum
-    inject(:+)
-  end
+  # def sum
+  #   inject(:+)
+  # end
 end

@@ -1,7 +1,7 @@
 require 'test_helper'
 require 'five_leaves/palindromic'
 
-class PalindromicTest < MiniTest::Unit::TestCase
+class PalindromicTest < Minitest::Test
   def test_palindrome
     assert(FiveLeaves.palindromic?(nil))
     assert(FiveLeaves.palindromic?(9009))
